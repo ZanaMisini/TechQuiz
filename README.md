@@ -27,11 +27,20 @@ Ky projekt i permbushe te gjitha kerkesat ne vijim: <br><br>
   - Formatimi i kodit
   - Modulariteti
   - Granulariteti
-  - Mirëmbajtja e repository
+  - Mirembajtja e repository
   - Mesazhet e commitave
-  - Përmbajtja e commitave
+  - Permbajtja e commitave
   - Evoluimi i projektit
   - Readme e repository
+
+# Pershkrimi i aplikacionit
+
+Aplikacioni "Tech Quiz" eshte nje platforme argetuese ne iOS e dizajnuar për të sprovuar njohurite ne fushen e teknologjise. Me pyetje te ndryshme dhe nivele veshtiresie, ky quiz ofron një eksperience sfiduese për perdoruesit që deshirojne të zgjerojne njohurite e tyre ne boten e teknologjise.
+
+  - Pyetje te ndryshme per te sprovuar njohurite ne fushen e teknologjise
+  - Nivele te ndryshme veshtiresie
+  - Regjistrimi i scores personale dhe mundesia per te krahasuar rezultatet me lojtaret e tjere
+  - Dizajni i pershtatshem per një eksperience te perdoruesit sa me te kendshme
 
 # Modulet
 Perfshin modulet per:
