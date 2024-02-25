@@ -45,7 +45,7 @@ Perfshin modulet per:
     <img src="https://github.com/ZanaMisini/TechQuiz/assets/118012775/dcee17c1-7f9f-49b0-96ea-43a246569d48" alt="logo" width="175" height="328"/>
   - Lojen, ne te cilen lejohet mundesia per zgjedhje te veshtiresise (Easy, Medium, Hard)
 
-    <img src="https://github.com/ZanaMisini/TechQuiz/assets/118012775/60b8ae92-0970-4d15-805c-a8218657b8e8" alt="logo" width="175" height="328"/>
+    <img src="https://github.com/ZanaMisini/TechQuiz/assets/118012775/86cb57ae-6fb1-40dc-9f92-87f177dfda20" alt="logo" width="175" height="328"/>
     <img src="https://github.com/ZanaMisini/TechQuiz/assets/118012775/5215983b-ce28-4b15-b18a-e6ccefff4e65" alt="logo" width="170" height="328"/>
     <img src="https://github.com/ZanaMisini/TechQuiz/assets/118012775/b7a6467a-18ac-4944-b3bf-bc34dc5cefa2" alt="logo" width="170" height="328"/>
     
