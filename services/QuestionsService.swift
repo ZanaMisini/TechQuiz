@@ -15,7 +15,7 @@ class QuestionsService{
         questionsArray.append(QuestionsModel(id: 0, question: "Sa bita ne nje byte?", correctAnswer: "8", wrongAnswer1: "16", wrongAnswer2: "1", wrongAnswer3: "64"))
         questionsArray.append(QuestionsModel(id: 1, question: "Cili nga keta konsiderohet softuer?", correctAnswer: "XCode", wrongAnswer1: "Smartphone", wrongAnswer2: "PC", wrongAnswer3: "Tablet"))
         questionsArray.append(QuestionsModel(id: 2, question: "Cili nga keta eshte Sistem Operativ?", correctAnswer: "Linux", wrongAnswer1: "Internet Explorer", wrongAnswer2: "mac", wrongAnswer3: "Zana"))
-        questionsArray.append(QuestionsModel(id: 3, question: "Cila nga keto pajisje eshte pajisje hyrese?", correctAnswer: "Tastatura", wrongAnswer1: "Monitori", wrongAnswer2: "Printeri", wrongAnswer3: "Skaneri"))
+        questionsArray.append(QuestionsModel(id: 3, question: "Cila nga keto pajisje eshte pajisje hyrese?", correctAnswer: "Tastatura", wrongAnswer1: "Monitori", wrongAnswer2: "Printeri", wrongAnswer3: "Projektori"))
         questionsArray.append(QuestionsModel(id: 4, question: "Cilin numer decimal e perfaqeson F ne hexadecimal?", correctAnswer: "15", wrongAnswer1: "16", wrongAnswer2: "7", wrongAnswer3: "64"))
         questionsArray.append(QuestionsModel(id: 5, question: "JavaScript eshte perditesim i gjuhes programuese Java?", correctAnswer: "Jo", wrongAnswer1: "Po", wrongAnswer2: "Ne disa aspekte", wrongAnswer3: "Jo, vlen e kunderta"))
         questionsArray.append(QuestionsModel(id: 6, question: "HTTP eshte shkurtese per: ", correctAnswer: "HyperText Transfer Protocol", wrongAnswer1: "HyperText Markup Language", wrongAnswer2: "HyperText Transport Protocol", wrongAnswer3: "HighlightText Topics Protocol"))
