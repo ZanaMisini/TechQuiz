@@ -17,6 +17,10 @@ class SignupRepository{
             return
         }
 
+        defer {
+            sqlite3_finalize(statement)
+        }
+
         let insertSQL = "INSERT INTO users (username, email, password, salt) VALUES (?, ?, ?, ?)"
 
         var statement: OpaquePointer? = nil
@@ -36,7 +40,7 @@ class SignupRepository{
             print("Error preparing insert statement")
         }
 
-        sqlite3_finalize(statement)
+        
     }
     
     //Metoda per te vendosur nje rresht te ri ne tabelen scores, kjo metode thirret secilen here qe nje user regjistrohet ne App, ashtu qe te kete rekordin e tij perkates per highest scores e fituara
@@ -44,6 +48,10 @@ class SignupRepository{
         guard let db = db else {
             print("Database pointer is nil")
             return
+        }
+
+        defer {
+            sqlite3_finalize(statement)
         }
 
         let insertSQL = "INSERT INTO scores (easy) VALUES (?)"
@@ -62,7 +70,7 @@ class SignupRepository{
             print("Error preparing insert scores statement")
         }
 
-        sqlite3_finalize(statement)
+        
     }
 
         
@@ -70,6 +78,10 @@ class SignupRepository{
     static func isUsernameExists(db: OpaquePointer?, username: String) -> Bool {
         let query = "SELECT COUNT(*) FROM users WHERE username = ?"
         var statement: OpaquePointer? = nil
+
+        defer {
+            sqlite3_finalize(statement)
+        }
 
         if sqlite3_prepare_v2(db, query, -1, &statement, nil) == SQLITE_OK {
             sqlite3_bind_text(statement, 1, username, -1, nil)
@@ -84,7 +96,6 @@ class SignupRepository{
             print("Error preparing query statement: \(query)")
         }
 
-        sqlite3_finalize(statement)
         return false
     }
 
@@ -92,6 +103,10 @@ class SignupRepository{
     static func isEmailExists(db: OpaquePointer?, email: String) -> Bool {
         let query = "SELECT COUNT(*) FROM users WHERE email = ?"
         var statement: OpaquePointer? = nil
+
+        defer {
+            sqlite3_finalize(statement)
+        }
 
         if sqlite3_prepare_v2(db, query, -1, &statement, nil) == SQLITE_OK {
             sqlite3_bind_text(statement, 1, email, -1, nil)
@@ -106,7 +121,6 @@ class SignupRepository{
             print("Error preparing query statement: \(query)")
         }
 
-        sqlite3_finalize(statement)
         return false
     }
     
